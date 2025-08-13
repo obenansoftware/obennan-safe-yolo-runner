@@ -1,29 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PLACEHOLDER - Replace with official Obenan logo -->
 <svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FFB800;stop-opacity:1" />
-      <stop offset="30%" style="stop-color:#FF6B9D;stop-opacity:1" />
-      <stop offset="60%" style="stop-color:#598AFF;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#598AFF;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#29D6FF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00BDEA;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="waveGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00BDEA;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#7DD3FC;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFB800;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Flowing wave pattern -->
-  <path d="M 0 40 Q 25 20 50 40 T 100 40 Q 125 60 150 40 T 200 40 Q 225 20 250 40 T 300 40" 
-        stroke="url(#waveGradient1)" stroke-width="16" fill="none" stroke-linecap="round"/>
-  
-  <!-- Brand name -->
-  <text x="150" y="85" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" 
-        font-size="24" font-weight="300" fill="#1a1a1a" letter-spacing="0.5px">
-    obenan
+  <rect width="300" height="120" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="150" y="60" text-anchor="middle" font-family="system-ui" font-size="16" fill="#666">
+    [Official Obenan Logo]
+  </text>
+  <text x="150" y="80" text-anchor="middle" font-family="system-ui" font-size="12" fill="#999">
+    Please replace with provided logo
   </text>
 </svg>
