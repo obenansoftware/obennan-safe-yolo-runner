@@ -1,0 +1,7 @@
+# Minimal image with Claude Code CLI
+FROM node:22-bullseye
+RUN npm install -g @anthropic-ai/claude-code@1.0.77
+# Create non-root user for security
+RUN useradd -m -s /bin/bash -u 1000 worker
+USER worker
+WORKDIR /workspace
