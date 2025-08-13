@@ -1,1 +1,32 @@
-
+<svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Official Obenan brand gradient -->
+    <linearGradient id="obenanGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#FF8C42"/>
+      <stop offset="20%" style="stop-color:#E361A8"/>
+      <stop offset="40%" style="stop-color:#8B5FB8"/>
+      <stop offset="60%" style="stop-color:#4A90E2"/>
+      <stop offset="80%" style="stop-color:#20C997"/>
+      <stop offset="100%" style="stop-color:#FFC107"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Official Obenan flowing wave logo -->
+  <path d="M50 60 C100 30, 140 30, 180 60 S260 90, 300 60 S380 30, 420 60 C440 70, 460 70, 480 60" 
+        stroke="url(#obenanGradient)" 
+        stroke-width="16" 
+        fill="none" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Obenan wordmark -->
+  <text x="250" y="110" 
+        text-anchor="middle" 
+        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" 
+        font-size="32" 
+        font-weight="300" 
+        fill="#2C3E50" 
+        letter-spacing="1.5px">
+    obenan
+  </text>
+</svg>
