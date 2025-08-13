@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" alt="Obenan Logo" width="300">
+  <img src="brand/obenan-logo.svg" alt="Obenan Logo" width="300">
   
   # Obenan Safe YOLO Runner
   
